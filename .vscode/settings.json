@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.jsx": "javascriptreact",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "cstdlib": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

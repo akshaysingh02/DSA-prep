@@ -26,7 +26,7 @@ void print(){
     cout<<endl;
 }
 
-  void addAtHead(Node* head, int val){
+void addAtHead(Node* head, int val){
         Node* temp = new Node;
         temp->link = head;
         head = temp;

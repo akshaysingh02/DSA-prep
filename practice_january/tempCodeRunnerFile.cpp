@@ -1,2 +1,0 @@
-
-    // mergeSort(right, n - mid);

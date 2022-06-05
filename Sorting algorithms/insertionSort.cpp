@@ -9,7 +9,7 @@ void insertionSort(int arr[], int n){
         int hole = i;
         while(hole>0 && arr[hole-1]>value){
             arr[hole] = arr[hole-1];
-            hole = hole-1;
+            hole--;
         }
         arr[hole] = value;
     }

@@ -5,8 +5,7 @@ using namespace std;
 int BinarySearch(int arr[],int n,int x){
     //These are the two pointers pointing to start and end of the array
     int start = 0;
-    int end = n-1;
-
+    int end = n-1;\]`    
     while(start<=end){
         //initializing mid like that might cause an overflow
         //to avoid that overflow use mid = end + (start-end)/2

@@ -65,9 +65,10 @@ void mergeSort(int arr[], int n)
 
 int main()
 {
-    int arr[] = {4, 23, -65, 2, 112, 2345, -987, 5, 0, 5, 11};
-    mergeSort(arr, 11);
-    for (int i = 0; i < 10; i++)
+    int arr[] = {1,20,6,4,5};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    mergeSort(arr, size);
+    for (int i = 0; i < size; i++)
     {
         cout << arr[i] << " ";
     }
